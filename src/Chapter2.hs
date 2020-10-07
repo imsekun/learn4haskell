@@ -259,7 +259,7 @@ values of variables you defined before.
 
 Let's talk a bit about list implementation details. Lists in Haskell
 are implemented as __linked lists__ (or cons-lists). And because
-everything is Haskell is immutable, adding elements at the beginning
+everything in Haskell is immutable, adding elements at the beginning
 of the lists is cheap. Haskell doesn't need to allocate new memory and
 copy the whole list there; it can just create a new list from a new
 element and a pointer to an already existing list. In other words,
